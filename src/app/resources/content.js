@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Solution engineer and builder</>,
   subline: (
     <>
-      I'm Samridh, a design engineer at <InlineCode>FLY</InlineCode>, where I
-      craft intuitive
+      I'm Samridh, a solution engineer at <InlineCode>Particle41</InlineCode>,
+      where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -107,32 +107,32 @@ const about = {
             enabling designers to iterate 50% faster.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // images: [
+        //   // optional: leave the array empty if you don't want to display images
+        //   {
+        //     src: "/images/projects/project-01/cover-01.jpg",
+        //     alt: "Once UI Project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+      // {
+      //   company: "Creativ3",
+      //   timeframe: "2018 - 2022",
+      //   role: "Lead Designer",
+      //   achievements: [
+      //     <>
+      //       Developed a design system that unified the brand across multiple
+      //       platforms, improving design consistency by 40%.
+      //     </>,
+      //     <>
+      //       Led a cross-functional team to launch a new product line,
+      //       contributing to a 15% increase in overall company revenue.
+      //     </>,
+      //   ],
+      //   images: [],
+      // },
     ],
   },
   studies: {
@@ -159,20 +159,20 @@ const about = {
           <>Able to prototype in Figma with Once UI with unnatural speed.</>
         ),
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // // images: [
+        // //   {
+        // //     src: "/images/projects/project-01/cover-02.jpg",
+        // //     alt: "Project image",
+        // //     width: 16,
+        // //     height: 9,
+        // //   },
+        // //   {
+        // //     src: "/images/projects/project-01/cover-03.jpg",
+        // //     alt: "Project image",
+        // //     width: 16,
+        // //     height: 9,
+        // //   },
+        // ],
       },
       {
         title: "Next.js",
@@ -180,14 +180,14 @@ const about = {
           <>Building next gen apps with Next.js + Once UI + Supabase.</>
         ),
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-04.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
     ],
   },
