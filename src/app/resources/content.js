@@ -96,7 +96,7 @@ const about = {
       {
         company: "Particle41",
         timeframe: "2016 - Present",
-        role: "Senior Design Engineer",
+        role: "Tech Head / Solution Engineer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20%
@@ -107,6 +107,7 @@ const about = {
             enabling designers to iterate 50% faster.
           </>,
         ],
+        images: [],
         // images: [
         //   // optional: leave the array empty if you don't want to display images
         //   {
@@ -154,10 +155,27 @@ const about = {
     title: "Technical skills",
     skills: [
       {
+        title: "Next.js",
+        description: (
+          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+        ),
+        images: [],
+        // optional: leave the array empty if you don't want to display images
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-04.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
         title: "Figma",
         description: (
           <>Able to prototype in Figma with Once UI with unnatural speed.</>
         ),
+        images: [],
         // optional: leave the array empty if you don't want to display images
         // // images: [
         // //   {
@@ -172,21 +190,6 @@ const about = {
         // //     width: 16,
         // //     height: 9,
         // //   },
-        // ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        // optional: leave the array empty if you don't want to display images
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/cover-04.jpg",
-        //     alt: "Project image",
-        //     width: 16,
-        //     height: 9,
-        //   },
         // ],
       },
     ],
