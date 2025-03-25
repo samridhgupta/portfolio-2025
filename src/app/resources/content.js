@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I
+      I'm Samridh, a design engineer at <InlineCode>FLY</InlineCode>, where I
       craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
@@ -82,7 +82,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
+        Samridh is a Pune-based solution engineer with a passion for
         transforming complex challenges into simple, elegant design solutions.
         Her work spans digital interfaces, interactive experiences, and the
         convergence of design and technology.
@@ -94,8 +94,8 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
+        company: "Particle41",
+        timeframe: "2016 - Present",
         role: "Senior Design Engineer",
         achievements: [
           <>
@@ -140,12 +140,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Lovely Professional University - 2015",
+        description: <> Bachelor's in Computer Science Engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Duke University - 2024",
+        description: <>Product Management Certified.</>,
       },
     ],
   },
