@@ -35,11 +35,11 @@ const social = [
     icon: "linkedin",
     link: "https://www.linkedin.com/in/samridhgupta/",
   },
-  // {
-  //   name: "Xds",
-  //   icon:"X",
-  //   link: "https://x.com/samridhg",
-  // },
+  {
+    name: "Twitter / X",
+    icon:"x",
+    link: "https://x.com/samridhg",
+  },
   {
     name: "Email",
     icon: "email",
@@ -49,7 +49,6 @@ const social = [
     name: "Medium",
     icon: "medium",
     link: "https://medium.com/@samridhgupta",
-    icon: "pages",
   },
 ];
 
