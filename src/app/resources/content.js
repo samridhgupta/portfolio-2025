@@ -6,10 +6,10 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Solution Engineer",
+  role: "The Technocrat",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Kolkata",
+  languages: ["English", "Hindi"],
 };
 
 const newsletter = {
@@ -17,15 +17,14 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the
-      intersection of creativity and engineering.
+      Join my monthly dispatch where I share lessons from the frontlines of
+      tech — from shipping GenAI features to scaling cloud-native systems.
+      Ideal for tech leaders, builders, and founder-operators.
     </>
   ),
 };
 
 const social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
     icon: "github",
@@ -37,34 +36,41 @@ const social = [
     link: "https://www.linkedin.com/in/samridhgupta/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Twitter / X",
+    icon:"x",
+    link: "https://x.com/samridhg",
   },
   {
     name: "Email",
     icon: "email",
     link: "mailto:samridhgupta@gmail.com",
   },
+  {
+    name: "Medium",
+    icon: "medium",
+    link: "https://medium.com/@samridhgupta",
+  },
 ];
 
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Solution engineer and builder</>,
+  description: `Portfolio website showcasing my work as a founder-first technologist`,
+  headline: <>Technocrat, Engineer, Builder, Product Manager</>,
   subline: (
     <>
-      I'm Samridh, a solution engineer at <InlineCode>Particle41</InlineCode>,
-      where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Samridh, a solution architect and full-stack generalist at
+      <InlineCode>Particle41</InlineCode>. I work at the intersection of code,
+      product, and GTM — helping startups move fast without breaking what
+      matters.
+
     </>
   ),
 };
 
 const about = {
   label: "About",
-  title: "About me",
+  title: "About Me",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -82,29 +88,47 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Samridh is a Pune-based solution engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        I’m Samridh Gupta — part engineer, part strategist, and always a
+        builder. With 9+ years of experience across engineering leadership,
+        full-stack architecture, AI/GenAI systems, and startup strategy, I’ve
+        worked with founders and product teams to build scalable systems that
+        work — and grow.
+        <br />
+        <br />
+        At <InlineCode >Particle41</InlineCode>, I’ve led 15+ projects across
+        industries: shipping <InlineCode >LLM-integrated</InlineCode> platforms,
+        optimizing DevOps flows, and designing cloud-native architectures that
+        don’t crumble under pressure. Whether building MVPs, planning GTM, or
+        scaling from v1 to v2 — I play both the coder and the coach.
+
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
         company: "Particle41",
         timeframe: "2016 - Present",
-        role: "Tech Head / Solution Engineer",
+        role: "Engineering Manager / Architect",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Spearheaded 15+ product builds from zero to scale, blending
+            full-stack execution with AI/GenAI innovation across web, mobile,
+            and infra.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Architected a Slack-based RAG assistant to deliver real-time team
+            support via OpenAI, LangChain, and vector DBs.
+          </>,
+          <>
+            Reduced release times by 80% through CI/CD standardization on AWS
+            and GCP, and coached 20+ devs to ship with confidence.
+          </>,
+          <>
+            Led GTM-aligned roadmaps, MVP discovery, and AI feature estimation
+            in fast-moving startup environments.
           </>,
         ],
         images: [],
@@ -117,80 +141,53 @@ const about = {
         //     height: 9,
         //   },
         // ],
-      },
-      // {
-      //   company: "Creativ3",
-      //   timeframe: "2018 - 2022",
-      //   role: "Lead Designer",
-      //   achievements: [
-      //     <>
-      //       Developed a design system that unified the brand across multiple
-      //       platforms, improving design consistency by 40%.
-      //     </>,
-      //     <>
-      //       Led a cross-functional team to launch a new product line,
-      //       contributing to a 15% increase in overall company revenue.
-      //     </>,
-      //   ],
-      //   images: [],
       // },
+     
+      },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
         name: "Lovely Professional University - 2015",
-        description: <> Bachelor's in Computer Science Engineering.</>,
+        description: <>B.Tech in Computer Science Engineering</>,
       },
       {
         name: "Duke University - 2024",
-        description: <>Product Management Certified.</>,
+        description: <>Product Management Certified</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Technical Skills",
     skills: [
       {
-        title: "Next.js",
+        title: "AI / GenAI Stack",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            LangChain, OpenAI APIs, RAG pipelines, LLM Ops, Slack Agents, AI
+            Tooling Strategy
+          </>
         ),
         images: [],
-        // optional: leave the array empty if you don't want to display images
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/cover-04.jpg",
-        //     alt: "Project image",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
       {
-        title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        title: "Frontend",
+        description: <>Next.js, React, TypeScript, Tailwind, React Native</>,
         images: [],
-        // optional: leave the array empty if you don't want to display images
-        // // images: [
-        // //   {
-        // //     src: "/images/projects/project-01/cover-02.jpg",
-        // //     alt: "Project image",
-        // //     width: 16,
-        // //     height: 9,
-        // //   },
-        // //   {
-        // //     src: "/images/projects/project-01/cover-03.jpg",
-        // //     alt: "Project image",
-        // //     width: 16,
-        // //     height: 9,
-        // //   },
-        // ],
+      },
+      {
+        title: "Backend",
+        description: <>Node.js, NestJS, Python, BFF, Microservices</>,
+        images: [],
+      },
+      {
+        title: "Cloud & DevOps",
+        description: <>AWS, GCP, Docker, Kubernetes, GitHub Actions, CI/CD</>,
+        images: [],
       },
     ],
   },
@@ -198,25 +195,20 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
+  title: "Build. Think. Scale.",
+  description: `Deep dives by ${person.name} on building with AI, architecting scalable systems, and aligning engineering with startup goals.`,
 };
 
 const work = {
   label: "Work",
-  title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  title: "Projects & Experiments",
+  description: `Selected works and experiments by ${person.name} across AI, infra, and product strategy.`,
 };
 
 const gallery = {
   label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
+  title: "Snapshots",
+  description: `A collection of frames by ${person.name} — travel, nature, pixels.`,
   images: [
     {
       src: "/images/gallery/img-01.jpg",

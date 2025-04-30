@@ -132,7 +132,6 @@ export default function Home() {
           </Flex>
         </Flex>
       )}
-      {/* <Projects range={[1]} /> */}
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>
   );

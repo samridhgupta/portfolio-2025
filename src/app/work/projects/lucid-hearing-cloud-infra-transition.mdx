@@ -1,0 +1,34 @@
+---
+title: "Lucid Hearing: Cloud Infrastructure Transition"
+publishedAt: "2021-03-01"
+summary: "Migrated on-premise audio-processing workloads for a tele-audiology platform to Azure & AWS, cutting costs by 70%."
+images:
+  - "/images/projects/lucid-hearing/cover.jpg"
+  - "/images/projects/lucid-hearing/migration-01.jpg"
+---
+
+## Overview
+
+Led the migration of a high-throughput audio/video processing backend from bare-metal servers to a hybrid Azure/AWS cloud environment, ensuring high availability and low latency for tele-audiology sessions.
+
+## Key Features
+
+- **Containerized Services**: Dockerized media transcoding pipelines with auto-scaling via Kubernetes.  
+- **CI/CD Automation**: GitHub Actions workflows for blue/green deployments.  
+- **Secure Networking**: VPN tunnels and VPC peering for private data channels.  
+- **Monitoring & Alerting**: CloudWatch & Azure Monitor integrations for SLA tracking.
+
+## Technologies Used
+
+- **Azure & AWS**: EC2, AKS/EKS, S3, Blob Storage, RDS.  
+- **Kubernetes & Docker**: Orchestrated microservices.  
+- **PostgreSQL**: Geo-replicated relational database.  
+- **Terraform**: Infrastructure as code.
+
+## Challenges and Learnings
+
+Orchestrating cross-cloud networking and ensuring sub-50 ms call latency required careful topology design. Automated cost-reporting dashboards to keep spend under tight budgets. Developed rollback strategies to handle any deployment failures without downtime.
+
+## Outcome
+
+Reduced infrastructure costs by 70% while improving service uptime to 99.9%, and accelerated deployment cycles by 80%.
