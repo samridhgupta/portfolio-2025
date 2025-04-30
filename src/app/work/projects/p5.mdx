@@ -1,0 +1,34 @@
+---
+title: "Forte Lessons: Online Marketplace for Music Teachers"
+publishedAt: "2020-11-01"
+summary: "A scalable video-conferencing marketplace connecting 13,000+ music teachers with students worldwide."
+images:
+  - "/images/projects/forte-lessons/cover.jpg"
+  - "/images/projects/forte-lessons/classroom-01.jpg"
+---
+
+## Overview
+
+Developed a full-stack platform for booking and conducting music lessons online, featuring live audio/video, scheduling, and billing.
+
+## Key Features
+
+- **Live Lessons**: Low-latency WebRTC sessions with multi-mic support.  
+- **Teacher Profiles & Scheduling**: Calendar integration and automated reminders.  
+- **Payment Gateway**: Stripe integration for secure payments and payouts.  
+- **Usage Analytics**: Tracks lesson durations, teacher ratings, and revenue.
+
+## Technologies Used
+
+- **Next.js & NestJS**: End-to-end TypeScript stack.  
+- **Twilio & WebRTC**: Real-time audio/video communication.  
+- **AWS (Lambda, S3)**: Serverless functions and media storage.  
+- **PostgreSQL & Firebase**: Relational & NoSQL data stores.
+
+## Challenges and Learnings
+
+Ensuring sub-50 ms audio/video latency led to custom TURN/STUN configurations. Scaled media servers horizontally to handle peak loads. Implemented encrypted signaling channels to comply with privacy standards.
+
+## Outcome
+
+Grew to 13,000+ teachers and logged over 190,000 lesson minutes, maintaining > 99.5% call success rate and 4.8★ average rating.

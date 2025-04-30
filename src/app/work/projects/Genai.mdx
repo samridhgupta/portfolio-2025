@@ -1,0 +1,35 @@
+---
+title: "P41 GenAI Initiatives"
+publishedAt: "2024-06-15"
+summary: "Internal AI-enablement toolkit and Slack-based RAG assistant to boost GenAI adoption across Particle41."
+images:
+  - "/images/projects/p41-genai/cover.jpg"
+  - "/images/projects/p41-genai/rag-screenshot.jpg"
+---
+
+## Overview
+
+Founded the GenAI center of excellence at Particle41, delivering internal tooling and integrations to streamline AI workflows. Spearheaded the development of a Slack RAG assistant and suite of AI-powered utilities.
+
+## Key Features
+
+- **@p41-rag Slack Bot**: Retrieves contextual answers from internal docs via vector search (LangChain + VectorDB).  
+- **AI Prompt Library**: Central repo of tested prompts for legal, analytics, and support teams.  
+- **GenAI Dashboard**: Monitors model usage, cost, and performance across AWS Bedrock & GCP.  
+- **AI Agents**: Automated workflows (e.g., weekly report generation) triggered via Slack.
+
+## Technologies Used
+
+- **Python & LangChain**: RAG pipelines and prompt orchestration.  
+- **OpenAI API & AWS Bedrock**: LLM backends for generation and embeddings.  
+- **GCP & AWS**: Hybrid cloud hosting, fine-tuning, and cost monitoring.  
+- **Slack API**: Interactive slash commands and message buttons.  
+- **Looker Studio**: Visualized AI adoption metrics.
+
+## Challenges and Learnings
+
+Ensuring data privacy in RAG required custom pre-processing pipelines and access controls. Orchestrating multi-cloud LLMs taught the importance of abstraction layers to switch providers seamlessly. Established an “AI policy” docs repo to educate teams on ethical usage.
+
+## Outcome
+
+Enabled a 30% increase in cross-team AI usage within two quarters and reduced average support ticket resolution time by 25% through automated AI-driven triage.

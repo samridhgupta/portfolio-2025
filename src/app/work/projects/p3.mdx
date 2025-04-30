@@ -1,0 +1,34 @@
+---
+title: "Conductor: Internal Reporting Tool for Executives"
+publishedAt: "2023-01-10"
+summary: "A secure reporting suite aggregating financial, employee, and skills metrics into leadership dashboards."
+images:
+  - "/images/projects/conductor/cover.jpg"
+  - "/images/projects/conductor/dashboard-01.jpg"
+---
+
+## Overview
+
+Built a centralized reporting platform that extracts data from multiple sources (HR, finance, project management) and presents interactive dashboards to executives.
+
+## Key Features
+
+- **Multi-Source ETL**: Ingests CSV, SQL, and API data into a unified warehouse.  
+- **Role-Based Access**: Fine-grained permissions ensure confidentiality.  
+- **Custom Dashboards**: Drag-and-drop chart builder for KPI visualization.  
+- **Automated Exports**: Scheduled PDF & CSV reports via email.
+
+## Technologies Used
+
+- **Next.js & NestJS**: Front-end and back-end services.  
+- **AWS (Lambda, S3, RDS)**: Serverless ETL pipelines and storage.  
+- **TypeScript & PostgreSQL**: Strong typing and relational data integrity.  
+- **Chart.js & Recharts**: Interactive charts.
+
+## Challenges and Learnings
+
+Designing an ETL resilient to schema changes in source systems required dynamic mapping and versioning. Implemented a secure token-rotation mechanism for API credentials. Gained deep insights into scaling serverless data pipelines.
+
+## Outcome
+
+Reduced manual reporting effort by 70% and provided leadership with real-time insights, driving faster decision-making and a 15% improvement in operational efficiency.
